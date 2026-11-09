@@ -1,6 +1,6 @@
 # Contador de calorias (skill para o Claude)
 
-Skill que transforma o Claude num diário alimentar: você manda o que comeu (texto, foto do prato ou do rótulo) e ele calcula calorias, proteína, carboidrato e gordura, guarda no Notion, Google Planilhas ou arquivo, e responde com o total do dia e a porcentagem de cada meta. Quando você pede "relatório mensal", ele gera uma página com gráficos de calorias e proteína por dia, onde você toca em um ponto para ver as refeições daquele dia.
+Skill que transforma o Claude num diário alimentar: você manda o que comeu (texto, áudio, foto do prato ou do rótulo) e ele calcula calorias, proteína, carboidrato e gordura, guarda no Notion, Google Planilhas ou arquivo, e responde com o total do dia e a porcentagem de cada meta. Quando você pede "relatório mensal", ele gera uma página com gráficos de calorias e proteína por dia, onde você toca em um ponto para ver as refeições daquele dia.
 
 > As calorias são estimativas. Esta skill não substitui nutricionista ou médico.
 
