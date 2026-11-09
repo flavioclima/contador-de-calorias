@@ -25,7 +25,7 @@ Se a opção escolhida precisar de um conector que não está disponível, diga 
 **1.3 Criar a estrutura.**
 - Uma tabela de registro com as colunas: `Data | Refeição | Descrição | Calorias (kcal) | Proteína (g) | Carboidrato (g) | Gordura (g)`. Use uma linha por item ou refeição.
 - Um bloco com as metas no topo do registro.
-- Uma página ou aba de **Alimentos frequentes** (nome, porção, kcal, proteína, carbo, gordura).
+- Uma página ou aba de **Alimentos frequentes**, com as colunas `Alimento | Porção | Calorias (kcal) | Proteína (g) | Carboidrato (g) | Gordura (g) | Observação`. Começa vazia e cresce com o uso (veja a seção 2.1).
 - Depois de criar, confirme com a pessoa onde ficou e guarde o endereço (memória, se disponível).
 
 Nas conversas seguintes, leia a configuração existente e não pergunte tudo de novo.
@@ -37,7 +37,7 @@ A pessoa manda texto ("2 whey e 100 g de carne"), foto do prato ou foto de rótu
 1. Identifique o alimento e a quantidade. Se a quantidade for essencial e não estiver clara, pergunte antes de lançar.
 2. Prioridade das fontes: **rótulo/tabela nutricional da foto** > alimento da lista de frequentes > estimativa. Marque como "estimado" na descrição tudo que vier de foto do prato ou de estimativa sem rótulo.
 3. **Carnes e cereais: cru ou cozido.** Os valores mudam muito com o peso. Se a pessoa não disser, pergunte ou assuma e escreva a suposição na descrição (ex.: "100 g, assumido já assado").
-4. Anote cada item novo que a pessoa repete como candidato a **alimento frequente** e ofereça salvar.
+4. Depois de lançar, aplique a regra da seção 2.1 sobre alimentos frequentes.
 5. Grave uma linha por refeição/item na data certa.
 6. Mantenha **uma única linha de total por dia**, em negrito: "Total do dia (parcial)" para o dia em andamento. Ela é **substituída** a cada lançamento, nunca acumulada em duplicata. Quando o dia fecha ("novo dia" ou a data muda), vire a parcial em "Total do dia" e abra a nova data.
 7. Permita lançar em dias passados ("no dia 30 adicione..."): insira a linha e recalcule o total daquele dia.
@@ -46,6 +46,18 @@ A pessoa manda texto ("2 whey e 100 g de carne"), foto do prato ou foto de rótu
 **Resposta a cada lançamento** (curta, para ler no celular):
 - O que foi lançado (kcal | proteína | carbo | gordura).
 - O total parcial ou fechado do dia e **cada macro como % da meta**.
+
+## 2.1 Alimentos frequentes
+
+A lista é pessoal e começa vazia. Ela serve para lançar rápido o que a pessoa come sempre e para manter os valores iguais de um dia para o outro.
+
+- **Consultar antes de estimar:** a cada lançamento, procure o item na lista (ignore maiúsculas, plural e pequenas variações de nome). Se achar, use os valores da lista para a porção cadastrada e multiplique pela quantidade (2 unidades = 2×). Se a porção pedida for diferente, converta e diga a conta em uma frase.
+- **Quando oferecer salvar:** quando o mesmo item (ou a mesma combinação, como "pasta de atum com pão") aparecer pela segunda vez, ou quando a pessoa pedir ("salva isso como frequente"). Não ofereça na primeira vez nem para exceções óbvias (restaurante, festa). Pergunte uma vez; se ela recusar, não insista nesse item.
+- **Como salvar:** uma linha por alimento, com nome curto, porção exata, os quatro valores e, em "Observação", a origem (rótulo, estimado, receita da pessoa) e a suposição de cru/cozido quando houver. Antes de criar, confira se já existe uma linha parecida e atualize em vez de duplicar.
+- **Atualizar:** se a pessoa corrigir um valor ou mandar o rótulo de um item que já está na lista, atualize a linha da lista e avise. Mudar a lista não altera dias já registrados, a menos que ela peça.
+- **Itens compostos:** para receitas da própria pessoa (vitamina, pasta de atum, sanduíche), pergunte uma vez os ingredientes e as quantidades, calcule o total e salve como uma linha só, com os ingredientes na observação.
+- **Mostrar a lista:** se a pessoa pedir "meus alimentos frequentes", mostre a lista em uma tabela curta.
+- **Privacidade:** a lista pertence à pessoa. Não copie valores de uma pessoa para outra nem presuma que os dela servem para outra.
 
 ## 3. Relatório mensal
 
